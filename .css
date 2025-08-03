@@ -1,0 +1,103 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    width: 100%;
+  }
+  
+  .box {
+    margin: 0 10px;
+    display: block;
+    width: 30%;
+    text-align: center;
+    height: 425px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .center-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bottom-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .top-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image1 img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    border: 10px solid purple;
+    border-radius: 20px;
+  }
+  
+  .image2 img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    border: 10px solid red;
+    border-radius: 20px;
+  }
+  
+  .image3 img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    border: 10px solid orange;
+    border-radius: 20px;
+  }
+  
+  .image4 img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    border: 10px solid green;
+    border-radius: 20px;
+  }
+  
+  .image5 img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    border: 10px solid blue;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .image6 img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    border: 10px solid yellowgreen;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  img {
+    width: 80%;
+    height: 80%;
+    object-fit:cover;
+}
+
+
+body {
+background-color: black;
+}

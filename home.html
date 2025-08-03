@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aktürk Şirketler Grubu</title>
+    <link rel="website icon" type="png"
+    href="Fotoğraflar/LOGO.jpeg">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="Fotoğraflar/LOGO.jpeg" > <h3>Aktürk Şirketler Grubu</h3>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="iletişim.html">İletişim</a></li>
+                <li><a href="Hakkımızda.html">Hakkımızda</a></li>
+                <li><a href="yönetimkadrosu.html">Yönetim Kadrosu</a></li>
+            </ul>
+
+            <div>
+                <button onclick="showAlert()">Örnek Dairelerimize Bakmak İçin Tıklayınız</button>
+
+                <script>
+                    function showAlert() {
+                        alert("GELİŞTİRİLME AŞAMASINDA !");
+                    }
+                </script>
+
+            </div>
+            
+
+        </nav>
+    </header>
+    <main class="container">
+        <h1>Yılların Tecrübesiyle!</h1>
+        <section class="companies">
+            <div class="company">
+               <a href="petrol.html"> <img src="Fotoğraflar/petrol.webp" alt="Aktürk Petrol"></a>
+                <p>Aktürk Petrol</p>
+            </div>
+            <div class="company">
+              <a href="döviz.html">  <img src="Fotoğraflar/döviz.webp" alt="Aktürk Döviz"></a>
+                <p>Aktürk Döviz</p>
+            </div>
+            <div class="company">
+               <a href="inşaat.html"> <img src="Fotoğraflar/inşaat.jpeg" alt="Aktürk İnşaat"></a>
+                <p>Aktürk İnşaat</p>
+            </div>
+            <div class="company">
+               <a href="mobilya.html"><img src="Fotoğraflar/MOBİLYA.jpeg" alt="Aktürk Mobilya"> </a>
+                <p>Aktürk Mobilya</p>
+            </div>
+            <div class="company">
+              <a href="tarım.html">  <img src="Fotoğraflar/TARIM.jpeg" alt="Aktürk Tarım"></a>
+                <p>Aktürk Tarım</p>
+            </div>
+        </section>
+    </main>
+    <div style="margin-top: -10%; margin-left: -0%;">
+    <ol>
+        <li>HİZMET VERDİĞİMİZ ŞEHİRLER</li>
+        <li>Merkez Şube: Adana </li>
+        <li>İstanbul</li>
+        <li>Ankara</li>
+        <li>İzmir</li>
+        <li>Bursa</li>
+        <li>Çanakkale</li>
+        <li>Antalya</li>
+        <li>Hatay</li>
+        <li>Mardin</li>
+        <li>Mersin</li>
+        <li>Muğla</li>
+    </ol>
+</div>
+    <div style="margin-left: 37%; margin-top: -5%;" class="slider">
+        <div class="slides">
+          <img src="Fotoğraflar/petrol.webp" alt="Resim 1">
+          <img src="Fotoğraflar/döviz.webp" alt="Resim 2">
+          <img src="Fotoğraflar/inşaat.jpeg" alt="Resim 3">
+          <img src="Fotoğraflar/MOBİLYA.jpeg" alt="Resim 4">
+          <img src="Fotoğraflar/TARIM.jpeg" alt="Resim 5">
+        </div>
+      </div>
+      
+    <script>
+    const slides = document.querySelector('.slides');
+        const slideCount = slides.childElementCount;
+        let index = 0;
+        
+        function showNextSlide() {
+          index = (index + 1) % slideCount; 
+          slides.style.transform = `translateX(-${index * 400}px)`;
+        }
+        setInterval(showNextSlide, 3000);
+    </script>
+
+<footer style="text-align: center; margin-top: 20px;">
+    <p>Tüm Hakları Saklıdır &copy; 2025</p>
+</footer>
+
+<a href="https://www.instagram.com/frkn.akturk0?igsh=MXR0MmxqczdrcWgy" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" width="50">
+</a>
+
+<a href="https://www.facebook.com/share/1GdaUjf32z/" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" width="50">
+</a>
+
+
+</body>
+</html>
